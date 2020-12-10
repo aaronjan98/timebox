@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "35861364650",
+    "project_id": "timebox-jan",
+    "storage_bucket": "timebox-jan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35861364650:android:5e32bb912426c7779e35d3",
+        "android_client_info": {
+          "package_name": "com.timebox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35861364650-mcuokmeho8957s3v6hcsbreqfcb82nae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.timebox",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "35861364650-qiaagc49edugava654iktijf5ipdovn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEu07agdzKo2Rl7oEPYrsOFIyMHUesaYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35861364650-qiaagc49edugava654iktijf5ipdovn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -18,14 +18,34 @@
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.37",
     "babel-jest": "^26.6.3",
     "eslint": "^7.15.0",
     "jest": "^26.6.3",
     "jetifier": "^1.6.6",
     "metro-react-native-babel-preset": "^0.64.0",
-    "react-test-renderer": "16.13.1"
+    "react-native-typescript-transformer": "^1.2.13",
+    "react-test-renderer": "16.13.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/"
+    ],
+    "cacheDirectory": ".jest/cache"
   }
 }
