@@ -23,7 +23,7 @@ const FeedStack = ({navigation}) => (
         headerTitleAlign: 'center',
         headerTitleStyle: {
           color: '#2e64e5',
-          fontFamily: 'Kufam-SemiBoldItalic',
+          // fontFamily: 'Kufam-SemiBoldItalic',
           fontSize:18
         },
         headerStyle: {

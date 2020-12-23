@@ -5,6 +5,7 @@ import {
   TouchableOpacity,
   Image,
   Platform,
+  ScrollView,
   StyleSheet,
 } from 'react-native';
 import FormInput from '../components/FormInput';
@@ -24,7 +25,7 @@ const LoginScreen = ({navigation}) => {
         source={require('../assets/rn-social-logo.png')}
         style={styles.logo}
       />
-      <Text style={styles.text}>RN Social App</Text>
+      <Text style={styles.text}>Timebox</Text>
 
       <FormInput
         labelValue={email}
@@ -99,7 +100,7 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
   },
   text: {
-    fontFamily: 'Kufam-SemiBoldItalic',
+    // fontFamily: 'Kufam-SemiBoldItalic',
     fontSize: 28,
     marginBottom: 10,
     color: '#051d5f',
@@ -114,6 +115,6 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '500',
     color: '#2e64e5',
-    fontFamily: 'Lato-Regular',
+    // fontFamily: 'Lato-Regular',
   },
 });
