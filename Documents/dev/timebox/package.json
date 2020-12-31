@@ -6,7 +6,7 @@
     "android": "npx react-native run-android --verbose",
     "ios": "npx react-native run-ios --verbose",
     "start": "npx react-native start",
-    "postinstall": "npx patch-package",
+    "postinstall": "npx patch-package --verbose",
     "jetify": "npx jetify",
     "test": "jest",
     "lint": "eslint ."
