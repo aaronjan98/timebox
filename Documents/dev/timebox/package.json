@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "android": "npx react-native run-android --verbose",
-    "ios": "npx react-native run-ios --verbose",
+    "ios": "npx react-native run-ios",
     "start": "npx react-native start",
     "postinstall": "npx patch-package --verbose",
     "jetify": "npx jetify",
