@@ -431,7 +431,7 @@ PODS:
     - Firebase/Auth (~> 7.2.0)
     - React-Core
     - RNFBApp
-  - RNFBStorage (10.4.0):
+  - RNFBStorage (10.2.0):
     - Firebase/Storage (~> 7.2.0)
     - React-Core
     - RNFBApp
@@ -449,6 +449,8 @@ PODS:
     - React-Core
     - React-RCTImage
     - TOCropViewController
+  - RNReanimated (1.13.2):
+    - React-Core
   - RNScreens (2.16.1):
     - React-Core
   - RNVectorIcons (7.1.0):
@@ -516,6 +518,7 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - "RNGoogleSignin (from `../node_modules/@react-native-community/google-signin`)"
   - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -626,6 +629,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-community/google-signin"
   RNImageCropPicker:
     :path: "../node_modules/react-native-image-crop-picker"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   RNVectorIcons:
@@ -695,12 +700,13 @@ SPEC CHECKSUMS:
   RNCMaskedView: f5c7d14d6847b7b44853f7acb6284c1da30a3459
   RNFBApp: e3a0a4a783064c49764d1deb6ce61de5857c42ca
   RNFBAuth: a34494ad3d94aac4a93f62b1077440ba9874be13
-  RNFBStorage: 41bc18739e2854394fc27a5404b35b1c4c3ba5d7
+  RNFBStorage: e82c991ef31383146bfc94cd355a8fa49f4d30da
   RNGestureHandler: 9b7e605a741412e20e13c512738a31bd1611759b
   RNGoogleSignin: ad866d4c4af2651e36801dd3b7771d7715353499
   RNImageCropPicker: 9e0bf18cf4184a846fed55747c8e622208b39947
+  RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
   RNScreens: 45c457af3d2ee9e08fc01e70da87e653d46b1198
-  RNVectorIcons: bc69e6a278b14842063605de32bec61f0b251a59
+  RNVectorIcons: 18d672f394ad4592eb8e93de519e4e00899e0446
   TOCropViewController: 3105367e808b7d3d886a74ff59bf4804e7d3ab38
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
